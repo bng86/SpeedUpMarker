@@ -24,4 +24,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
+    <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonLevel1"
+            app:layout_constraintBottom_toBottomOf="@+id/buttonLevel0"
+            android:text="LEVEL1"
+            app:layout_constraintStart_toEndOf="@id/buttonLevel0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
 </android.support.constraint.ConstraintLayout>
